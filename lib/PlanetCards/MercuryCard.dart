@@ -14,6 +14,7 @@ class MercuryCard extends StatelessWidget {
               margin: EdgeInsets.only(top: 60),
               clipBehavior: Clip.antiAliasWithSaveLayer,
               elevation: 7,
+              color: Color.fromARGB(255, 2, 44, 78),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(30),
               ),
