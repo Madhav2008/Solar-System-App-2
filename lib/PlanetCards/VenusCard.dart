@@ -36,7 +36,7 @@ class VenusCard extends StatelessWidget {
                     height: 180,
                     width: 180,
                     child: ClipRRect(
-                      child: Image.asset('../assets/images/Venus.png'),
+                      child: Image.asset('../assets/Venus.png'),
                     ),
                   ),
                 ),
