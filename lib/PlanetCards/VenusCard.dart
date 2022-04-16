@@ -9,7 +9,7 @@ class VenusCard extends StatelessWidget {
       onTap: () => Navigator.push(
         context,
         MaterialPageRoute(
-          builder: (_) => MercuryInfo(),
+          builder: (_) => VenusInfo(),
         ),
       ),
       child: Container(
