@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import 'package:solar_system_app/PlanetCards/EarthCard.dart';
 import 'package:solar_system_app/PlanetCards/MarsCard.dart';
