@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:solarsystem/screens/MercuryInfo.dart';
+import 'package:solar_system_app/screens/MercuryInfo.dart';
 
 class MercuryCard extends StatelessWidget {
   @override
