@@ -36,7 +36,7 @@ class MarsCard extends StatelessWidget {
                     height: 180,
                     width: 180,
                     child: ClipRRect(
-                      child: Image.asset('../assets/images/Mars.png'),
+                      child: Image.asset('../assets/Mars.png'),
                     ),
                   ),
                 ),
