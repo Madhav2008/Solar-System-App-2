@@ -120,6 +120,8 @@ class MercuryCard extends StatelessWidget {
                         fontWeight: FontWeight.w200,
                       ),
                     ),
+                    SizedBox(height: 20),
+
                   ],
                 ),
               )
