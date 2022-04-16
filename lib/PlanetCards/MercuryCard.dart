@@ -110,6 +110,8 @@ class MercuryCard extends StatelessWidget {
                         fontWeight: FontWeight.w500,
                       ),
                     ),
+                    SizedBox(height: 20),
+
                     Text(
                       '3.7 m/s²',
                       style: TextStyle(
