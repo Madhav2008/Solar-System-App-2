@@ -16,9 +16,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Solar System App',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
       debugShowCheckedModeBanner: false,
       home: HomeScreen(),
     );
