@@ -26,7 +26,7 @@ class MercuryCard extends StatelessWidget {
                 ),
                 child: Container(
                   width: 290,
-                  color: Color.fromARGB(255, 2, 44, 78),
+                  color: Color.fromARGB(255, 9, 26, 39),
                 ),
               ),
             ),
