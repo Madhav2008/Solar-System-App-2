@@ -9,7 +9,7 @@ class MercuryInfo extends StatelessWidget {
         height: double.infinity,
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('../assets/images/background2.png'),
+            image: AssetImage('../assets/background2.png'),
             fit: BoxFit.cover,
           ),
         ),
