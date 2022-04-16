@@ -21,7 +21,7 @@ class MercuryInfo extends StatelessWidget {
               alignment: Alignment.topLeft,
               child: Padding(
                 padding: EdgeInsets.only(top: 40),
-                child: FlatButton(
+                child: ElevatedButton(
                   onPressed: () => Navigator.pop(context),
                   child: Icon(
                     Icons.close,
