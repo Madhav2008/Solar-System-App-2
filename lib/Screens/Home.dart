@@ -13,48 +13,46 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
-        child: Container(
-          width: double.infinity,
-          height: double.infinity,
-          decoration: BoxDecoration(
-            image: DecorationImage(
-              image: AssetImage('../assets/background.jpg'),
-              fit: BoxFit.cover,
-            ),
+      body: Container(
+        width: double.infinity,
+        height: double.infinity,
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage('../assets/background.jpg'),
+            fit: BoxFit.cover,
           ),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.start,
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: <Widget>[
-              Align(
-                alignment: Alignment.topLeft,
-                child: Padding(
-                  padding: EdgeInsets.symmetric(vertical: 50, horizontal: 25),
-                  child: Text(
-                    'Solar \nSystem',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 45,
-                      fontWeight: FontWeight.w500,
-                    ),
+        ),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: <Widget>[
+            Align(
+              alignment: Alignment.topLeft,
+              child: Padding(
+                padding: EdgeInsets.symmetric(vertical: 50, horizontal: 25),
+                child: Text(
+                  'Solar \nSystem',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 45,
+                    fontWeight: FontWeight.w500,
                   ),
                 ),
               ),
-              Container(
-                height: 485,
-                child: ListView(
-                  scrollDirection: Axis.horizontal,
-                  children: <Widget>[
-                    MercuryCard(),
-                    VenusCard(),
-                    EarthCard(),
-                    MarsCard(),
-                  ],
-                ),
-              )
-            ],
-          ),
+            ),
+            Container(
+              height: 485,
+              child: ListView(
+                scrollDirection: Axis.horizontal,
+                children: <Widget>[
+                  MercuryCard(),
+                  VenusCard(),
+                  EarthCard(),
+                  MarsCard(),
+                ],
+              ),
+            )
+          ],
         ),
       ),
     );
