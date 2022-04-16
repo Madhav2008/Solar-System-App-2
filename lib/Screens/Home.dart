@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:solarsystem/PlanetCards/EarthCard.dart';
-import 'package:solarsystem/PlanetCards/MarsCard.dart';
-import 'package:solarsystem/PlanetCards/MercuryCard.dart';
-import 'package:solarsystem/PlanetCards/VenusCard.dart';
+import 'package:solar_system_app/PlanetCards/EarthCard.dart';
+import 'package:solar_system_app/PlanetCards/MarsCard.dart';
+import 'package:solar_system_app/PlanetCards/MercuryCard.dart';
+import 'package:solar_system_app/PlanetCards/VenusCard.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
