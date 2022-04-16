@@ -63,7 +63,7 @@ class MercuryInfo extends StatelessWidget {
                         height: 180,
                         width: 200,
                         child: ClipRRect(
-                          child: Image.asset('../assets/images/Mercury.png'),
+                          child: Image.asset('../assets/Mercury.png'),
                         ),
                       ),
                     ),
