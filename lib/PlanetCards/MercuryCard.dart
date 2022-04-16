@@ -6,7 +6,7 @@ class MercuryCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: EdgeInsets.symmetric(horizontal: 45),
-      height: 850,
+      height: 450,
       child: Stack(
         children: <Widget>[
           Center(
@@ -110,7 +110,6 @@ class MercuryCard extends StatelessWidget {
                         fontWeight: FontWeight.w500,
                       ),
                     ),
-                    SizedBox(height: 20),
                     Text(
                       '3.7 m/s²',
                       style: TextStyle(
@@ -119,7 +118,6 @@ class MercuryCard extends StatelessWidget {
                         fontWeight: FontWeight.w200,
                       ),
                     ),
-                    SizedBox(height: 20),
                   ],
                 ),
               )
