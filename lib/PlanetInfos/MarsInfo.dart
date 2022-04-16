@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 
-class MercuryInfo extends StatelessWidget {
+class MarsInfo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
