@@ -50,7 +50,7 @@ class MercuryInfo extends StatelessWidget {
                     child: Container(
                       width: 290,
                       height: 525,
-                      color: Theme.of(context).primaryColor,
+                      color: Colors.blue,
                     ),
                   ),
                 ),
