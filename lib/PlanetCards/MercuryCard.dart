@@ -7,12 +7,12 @@ class MercuryCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-                onTap: () => Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (_) => MercuryInfo(),
-                  ),
-                ),
+      onTap: () => Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (_) => MercuryInfo(),
+        ),
+      ),
       child: Container(
         margin: EdgeInsets.symmetric(horizontal: 45),
         height: 450,
