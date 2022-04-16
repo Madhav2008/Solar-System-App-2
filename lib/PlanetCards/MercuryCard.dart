@@ -6,7 +6,7 @@ class MercuryCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: EdgeInsets.symmetric(horizontal: 45),
-      height: 460,
+      height: 500,
       child: Stack(
         children: <Widget>[
           Center(
