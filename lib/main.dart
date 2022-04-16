@@ -4,7 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:solar_system_app/Screens/Home.dart';
 
 void main() {
-  runApp(MyApp(),);
+  runApp(
+    MyApp(),
+  );
 }
 
 class MyApp extends StatelessWidget {
