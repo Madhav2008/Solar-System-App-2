@@ -32,19 +32,19 @@ class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
   void _incrementCounter() {
-    setState(() {_counter++;
+    setState(() {
+      _counter++;
     });
   }
 
   @override
   Widget build(BuildContext context) {
-   return Scaffold(
+    return Scaffold(
       appBar: AppBar(
-       title: Text(widget.title),
+        title: Text(widget.title),
       ),
       body: Center(
-       child: Column(
-          
+        child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
@@ -61,6 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: const Icon(Icons.add),
-      ), );
+      ),
+    );
   }
 }
