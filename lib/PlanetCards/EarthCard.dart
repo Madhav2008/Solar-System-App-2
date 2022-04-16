@@ -1,6 +1,7 @@
 // ignore_for_file: file_names
 
 import 'package:flutter/material.dart';
+import 'package:solar_system_app/PlanetInfos/EarthInfo.dart';
 
 class EarthCard extends StatelessWidget {
   @override
@@ -9,7 +10,7 @@ class EarthCard extends StatelessWidget {
       onTap: () => Navigator.push(
         context,
         MaterialPageRoute(
-          builder: (_) => MercuryInfo(),
+          builder: (_) => EarthInfo(),
         ),
       ),
       child: Container(
