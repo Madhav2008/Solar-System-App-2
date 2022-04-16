@@ -8,7 +8,7 @@ class MercuryCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: EdgeInsets.symmetric(horizontal: 45),
-      height: 430,
+      height: 450,
       child: Stack(
         children: <Widget>[
           Center(
@@ -42,7 +42,7 @@ class MercuryCard extends StatelessWidget {
                 padding: EdgeInsets.only(left: 55),
                 child: Center(
                   child: Container(
-                    height: 170,
+                    height: 160,
                     width: 180,
                     child: ClipRRect(
                       child: Image.asset('../assets/Mercury.png'),
