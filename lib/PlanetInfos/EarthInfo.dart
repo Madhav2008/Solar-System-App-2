@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:solar_system_app/PlanetInfos/MercuryInfo.dart';
 
-class MercuryCard extends StatelessWidget {
+class EarthCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
