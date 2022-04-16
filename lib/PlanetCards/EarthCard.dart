@@ -36,7 +36,7 @@ class EarthCard extends StatelessWidget {
                     height: 180,
                     width: 180,
                     child: ClipRRect(
-                      child: Image.asset('assets/images/Earth.png'),
+                      child: Image.asset('../assets/images/Earth.png'),
                     ),
                   ),
                 ),
