@@ -34,7 +34,7 @@ class EarthCard extends StatelessWidget {
                 padding: EdgeInsets.only(left: 55),
                 child: Center(
                   child: Container(
-                    height: 180,
+                    height: 170,
                     width: 180,
                     child: ClipRRect(
                       child: Image.asset('../assets/Earth.png'),
