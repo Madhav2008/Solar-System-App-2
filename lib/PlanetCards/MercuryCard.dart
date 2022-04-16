@@ -11,7 +11,7 @@ class MercuryCard extends StatelessWidget {
         children: <Widget>[
           Center(
             child: Card(
-              margin: EdgeInsets.only(top: 80),
+              margin: EdgeInsets.only(top: 60),
               clipBehavior: Clip.antiAliasWithSaveLayer,
               elevation: 7,
               shape: RoundedRectangleBorder(
