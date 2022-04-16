@@ -18,7 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
         height: double.infinity,
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('../assets/background1.png'),
+            image: AssetImage('../assets/background.png'),
             fit: BoxFit.cover,
           ),
         ),
