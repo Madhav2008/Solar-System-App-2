@@ -31,7 +31,7 @@ class _HomeScreenState extends State<HomeScreen> {
               child: Padding(
                 padding: EdgeInsets.symmetric(vertical: 50, horizontal: 25),
                 child: Text(
-                  'Solar System',
+                  'Solar \nSystem',
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 45,
