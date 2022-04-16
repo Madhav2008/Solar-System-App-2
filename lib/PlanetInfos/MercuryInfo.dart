@@ -11,7 +11,7 @@ class MercuryInfo extends StatelessWidget {
         height: double.infinity,
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('../assets/background.jpg'),
+            image: AssetImage('assets/background.jpg'),
             fit: BoxFit.cover,
           ),
         ),
