@@ -101,23 +101,23 @@ class MercuryCard extends StatelessWidget {
                         fontWeight: FontWeight.w200,
                       ),
                     ),
-                    SizedBox(height: 20),
-                    Text(
-                      'Gravity',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 20,
-                        fontWeight: FontWeight.w500,
-                      ),
-                    ),
-                    Text(
-                      '3.7 m/s²',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 20,
-                        fontWeight: FontWeight.w200,
-                      ),
-                    ),
+                    // SizedBox(height: 20),
+                    // Text(
+                    //   'Gravity',
+                    //   style: TextStyle(
+                    //     color: Colors.white,
+                    //     fontSize: 20,
+                    //     fontWeight: FontWeight.w500,
+                    //   ),
+                    // ),
+                    // Text(
+                    //   '3.7 m/s²',
+                    //   style: TextStyle(
+                    //     color: Colors.white,
+                    //     fontSize: 20,
+                    //     fontWeight: FontWeight.w200,
+                    //   ),
+                    // ),
                   ],
                 ),
               )
