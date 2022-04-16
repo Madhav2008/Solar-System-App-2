@@ -66,7 +66,7 @@ class EarthInfo extends StatelessWidget {
                         height: 180,
                         width: 200,
                         child: ClipRRect(
-                          child: Image.asset('../assets/Mercury.png'),
+                          child: Image.asset('../assets/Earth.png'),
                         ),
                       ),
                     ),
@@ -74,7 +74,7 @@ class EarthInfo extends StatelessWidget {
                       child: Column(
                         children: <Widget>[
                           Text(
-                            'Mercury',
+                            'Earth',
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 40,
@@ -132,7 +132,7 @@ class EarthInfo extends StatelessWidget {
                           Padding(
                             padding: EdgeInsets.symmetric(horizontal: 65),
                             child: Text(
-                              'Mercury is the smallest and innermost planet in the Solar System. Its orbit around the Sun takes only 87.97 days, the shortest of all the planets in the Solar System. It is named after the Roman deity Mercury, the messenger of the gods.',
+                              'Earth is the smallest and innermost planet in the Solar System. Its orbit around the Sun takes only 87.97 days, the shortest of all the planets in the Solar System. It is named after the Roman deity Earth, the messenger of the gods.',
                               style: TextStyle(
                                 color: Colors.white,
                                 fontWeight: FontWeight.w200,
